@@ -31,7 +31,15 @@ function App() {
 	return (
 		<div className="wrapper">
 			<h1>My Codestats exp</h1>
-			<a href="https://codestats.net/users/ismiabbas">Link</a>
+			<a target="_blank" href="https://codestats.net/users/ismiabbas" rel="noreferrer">
+				Codestats Link
+			</a>
+			<a href="https://nivo.rocks/calendar/" target="_blank" rel="noreferrer">
+				Nivo Calendar
+			</a>
+			<a href="https://github.com/ismi-abbas/nivo-chart" target="_blank" rel="noreferrer">
+				Github
+			</a>
 
 			<div className="container">
 				<ResponsiveCalendar
